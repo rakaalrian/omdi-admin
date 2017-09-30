@@ -1,6 +1,6 @@
 # omdi-admin
 admin untuk omdi app 2017
 
-username : devomdi
+username : <b>devomdi</b>
 <br>
-password : sayangsepti
+password : <b>sayangsepti</b>

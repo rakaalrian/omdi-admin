@@ -1,0 +1,26 @@
+.image-editor{
+  padding: 0;
+}
+.cropit-preview {
+  background-color: #f8f8f8;
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-top: 7px;
+}
+.cropit-preview-image-container {
+  cursor: move;
+}
+.image-size-label {
+  margin-top: 10px;
+}
+input, .export {
+  display: block;
+}
+input.cropit-image-input {
+  /*visibility: hidden;*/
+  display: none;
+}
+.form-group{
+  margin-bottom: 0;
+}

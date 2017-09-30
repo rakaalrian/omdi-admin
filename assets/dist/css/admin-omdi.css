@@ -1,0 +1,155 @@
+  .alert{
+    padding: 5px;
+  }
+  .progress{
+    height: 10px;
+  }
+  .navbar-brand{
+    padding: 5px;
+  }
+  .page-header{
+    border-color: #185999;
+  }
+  @media (min-width: 768px){
+    .navbar-header{
+      float: left;
+      margin: auto 50%;
+    }
+  }
+  @media (min-width: 768px){
+    .form-ref{
+      width:49%;
+    }
+  }
+  @media (max-width: 768px){
+    .form-ref{
+      width:100%;
+    }
+  }
+  @media (min-width: 1200px){
+    .sd{
+      width: 3%;
+    }
+  }
+  @media (max-width: 1200px){
+    .sd{
+      width: 100%;
+    }
+  }
+  .dataTables_empty{
+    text-align: center;
+  }
+  td .label{
+    font-size: 100%;
+  }
+  th , td{
+    vertical-align: top;
+  }
+  textarea{
+    resize:none;
+  }
+  /* Magnific Preview */
+  .mag-preview{
+    position:relative;
+    display:inline-block;
+    vertical-align:top;
+    margin:16px;
+    min-height:100px
+  }
+  .mag-image{
+    border-radius:20px;
+    overflow:hidden;
+    width:120px;
+    height:120px;
+    position:relative;
+    display:block;
+    z-index:10;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .panel-title{
+    font-size: 14px;
+  }
+  .log{
+    max-height:150px;
+    overflow: auto;
+    overflow-y: auto;
+  }
+  .table{
+    margin-bottom: 0;
+  }
+  .icon-notif{
+    border-radius:10px;
+    position:absolute;
+    margin: -15% 0 0 -23px;
+  }
+  .note-editor.note-frame.has-error{
+    border-color: #a94442;
+  }
+  .note-editor.note-frame.panel{
+    margin-bottom: 5px;
+  }
+  .dropdown-menu{
+    min-width: 50px;
+    max-width: 100px;
+    right: 0;
+    left: unset;
+  }
+  .dropdown-menu a{
+    cursor: pointer;
+  }
+  .btn-table .dropdown-backdrop{
+    position: relative;
+  }
+  .panel-title{
+      font-size: 16px;
+  }
+  .note-editor .note-dropzone { opacity: 0 !important; }
+  .note-editable {
+    line-height: 1.0;
+  }
+
+
+
+/*==========================FONT MEDALI====================================*/
+
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?kbs7hv');
+    src:  url('fonts/icomoon.eot?kbs7hv#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?kbs7hv') format('truetype'),
+      url('fonts/icomoon.woff?kbs7hv') format('woff'),
+      url('fonts/icomoon.svg?kbs7hv#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  [class^="fi-"], [class*=" fi-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fi {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fi-medal:before {
+    content: "\e900";
+  }
+  .fi-fw {
+    width: 1.28571429em;
+    text-align: center;
+  }
